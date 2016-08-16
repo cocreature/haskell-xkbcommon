@@ -113,6 +113,16 @@ source-repository head
   type:     git
   location: https://github.com/tulcod/haskell-xkbcommon.git
 
+custom-setup
+  setup-depends: base
+               , Cabal
+               , cpphs
+               , directory
+               , filepath
+               , process
+               , template-haskell
+               , text
+
 library
   exposed-modules:
     Text.XkbCommon,
